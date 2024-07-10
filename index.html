@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form id="taskform">
+            <input type="text" id="testtask">
+            <button id="sub">Add</button>
+        </form>
+
+        <ul id="result">
+            
+        </ul>
+    </div>
+    <style>*{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        font-family: poppins;
+    background-image: linear-gradient(to right bottom, #d10ba5,
+     #bf49c1, #aa68d6, #9680e3, #8693e8, #78a3ef, #6fb2f3,
+      #70bff3, #6dd0f7, #74dff7, #86eef4, #9ffbf1);}
+      #wrapper{
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2em;
+        border:2px black solid;
+      }
+      form{
+        margin-bottom: 0.8em;
+        justify-content: space-between;
+        display: flex;
+      }
+      input,button{
+        padding: 0.5em;
+      }
+      li{
+        cursor: pointer;color: #ffffff;display: flex;align-items: center;justify-content: space-between;background-color: #1e013e;margin-bottom: 0.8em;padding: 0.3em;border: 1px solid #3bf409;
+      }
+      .del{background-color: red;color: white;}
+        .done{background-color: green;color: #ffffff;}
+      
+      input,.item{
+        flex: 1;
+      }
+      ul{
+        list-style: none;
+      }
+      </style>
+      <script>
+        console.log("hi")
+        let wo=document.getElementById("testtask");
+        const btn=document.getElementById("Add")
+        btn.onclick=function(){
+const items=document.getElementsByClassName("item");
+
+        }
+       
+      </script>
+</body>
+</html>
